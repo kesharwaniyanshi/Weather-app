@@ -1,0 +1,12 @@
+.weather{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flexform{
+    display: flex;
+    justify-content:center;
+}
