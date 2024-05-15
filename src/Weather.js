@@ -72,7 +72,7 @@ const Weather = () => {
     return (
         <div className='weather' style={{ backgroundImage: `url(${backgroundImage})` }} >
             <div className='card'>
-                <h1>Weather Forecast App</h1>
+                <h1>SkyCast</h1>
                 <form onSubmit={handleSubmit} className='flexform'>
                     <input type='text' placeholder='Enter City' value={city} onChange={handleInputChange} />
                     <button type='submit'> Get Weather <FaSearch /></button>
